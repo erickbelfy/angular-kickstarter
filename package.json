@@ -28,7 +28,8 @@
     "angular": "^1.4.7",
     "angular-loader": "^1.4.7",
     "angular-mocks": "^1.4.7",
-    "angular-route": "^1.4.5"
+    "angular-route": "^1.4.5",
+    "html5-boilerplate": "git+https://github.com/h5bp/html5-boilerplate.git"
   },
   "devDependencies": {
     "http-server": "^0.8.5",
