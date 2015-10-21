@@ -4,7 +4,7 @@
         'ngRoute'
     ])
     .config(['$routeProvider', function($routeProvider) {
-      $routeProvider.when('/login', {
+      $routeProvider.when('/', {
         templateUrl: 'app/module1/module1.html'
       });
     }])
