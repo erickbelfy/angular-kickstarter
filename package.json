@@ -6,17 +6,13 @@
   "scripts": {
     "prestart": "npm install",
     "start": "http-server -a localhost -p 8000 -c-1",
-
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
     "test-single-run": "karma start karma.conf.js --single-run",
-
     "preupdate-webdriver": "npm install",
     "update-webdriver": "webdriver-manager update",
-
     "preprotractor": "npm install",
     "protractor": "protractor e2e-tests/protractor.conf.js"
-
   },
   "repository": {
     "type": "git",
@@ -39,6 +35,7 @@
     "jasmine-core": "^2.3.4",
     "karma": "^0.13.11",
     "karma-chrome-launcher": "^0.2.1",
+    "karma-coverage": "^0.5.3",
     "karma-firefox-launcher": "^0.1.6",
     "karma-jasmine": "^0.3.6",
     "karma-junit-reporter": "^0.3.7",
