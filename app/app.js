@@ -2,7 +2,8 @@
 
 angular.module('kickstarter', [
     'ngRoute',
-    'kickstarter.autocomplete'
+    'kickstarter.services',
+    'kickstarter.directives'
 ]).config(['$routeProvider'], function ($routeProvider) {
     $routeProvider.otherwise({redirectTo: '/module1'});
 });
