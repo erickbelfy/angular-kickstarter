@@ -1,6 +1,6 @@
 (function() {
     'use strict';
-    angular.module('supernova.login', [
+    angular.module('module1', [
         'ngRoute'
     ])
     .config(['$routeProvider', function($routeProvider) {
