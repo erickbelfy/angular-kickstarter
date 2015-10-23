@@ -1,10 +1,10 @@
 (function () {
     'use strict';
 
-    angular.module('kickstarter.services.albums', [])
-    .factory('Albums', Albums);
+    angular.module('kickstarter.services.artists', [])
+    .factory('Artists', Artists);
 
-    Albums.$inject = ['API', '$http'];
+    Artists.$inject = ['API', '$http'];
 
-    function Albums(API, $http) {}
+    function Artists(API, $http) {}
 })();
